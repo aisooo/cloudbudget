@@ -1,0 +1,242 @@
+.main-container {
+  max-width: 100%;
+  background: url("images/Rectangle\ 3.png");
+}
+.container {
+  max-width: 100%;
+  padding: 90px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+}
+.nav_elements li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_elements li a {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #ffffff;
+}
+.logo_name {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.btn {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 6px;
+  width: 100px;
+  height: 40px;
+  border: none;
+}
+.main_title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 86px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.main_paragraph {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+.sign_btn {
+  background: #ffffff;
+  border-radius: 6px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  border: none;
+  text-transform: uppercase;
+  width: 160px;
+  height: 50px;
+  color: #ed4c5c;
+}
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 177px 10%;
+}
+.introduction-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-line {
+  width: 445px;
+  height: 250px;
+  padding-left: 165px;
+}
+
+.text-line-h {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  margin: 0 0 50px 0;
+  color: #000000;
+}
+.text-line-p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+
+  text-align: justify;
+
+  color: #000000;
+}
+.text-line-add {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+
+  color: #ed4c5c;
+}
+.about-features {
+  text-align: center;
+}
+.featurs-card {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+/* .features_card_card {
+  background: #ffffff;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  position: absolute;
+  width: 293px;
+  height: 198px;
+  top: 1500px;
+  left: 115px;
+  text-align: center;
+  width: 253px;
+  height: 140px;
+}
+.card_title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #101010;
+} */
+.storage {
+  width: 191px;
+  height: 51px;
+  text-align: center;
+}
+.feature_about {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #101010;
+}
+.money_about {
+  background-color: #ed4c5c;
+}
+.about {
+  color: #ffffff;
+}
+
+input {
+  border: 1px solid #333333;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 255px;
+  height: 60px;
+}
+.Number {
+  width: 540px;
+  height: 60px;
+  margin-top: 24px;
+}
+
+.submition-forms {
+  padding-left: 125px;
+}
+.Submit_btn {
+  width: 160px;
+  height: 50px;
+  background: #ed4c5c;
+  border: 1.5px solid #ed4c5c;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-top: 24px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-address {
+  width: 254px;
+  height: 54px;
+}
